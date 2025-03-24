@@ -92,4 +92,9 @@
   &:hover {
     transform: scale(1.2);
   }
+
+  &:hover > &__name {
+    color: #34568b;
+    background-color: #fff;
+  }
 }
